@@ -102,7 +102,7 @@ eksctl 명령을 이용해서 AWS EKS 생성하기
     --region ap-northeast-2 \
     --with-oidc \
     --ssh-access \
-    --ssh-public-key aws--login-key \
+    --ssh-public-key obigo \
     --nodes 3 \
     --node-type t3.medium \
     --node-volume-size=20 \
